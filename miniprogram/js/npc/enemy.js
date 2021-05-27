@@ -2,8 +2,8 @@ import Animation from '../base/animation'
 import DataBus   from '../databus'
 
 const ENEMY_IMG_SRC = 'images/enemy1.jpg'
-const ENEMY_WIDTH   = 60
-const ENEMY_HEIGHT  = 60
+const ENEMY_WIDTH   = 40
+const ENEMY_HEIGHT  = 40
 
 const __ = {
   speed: Symbol('speed')

@@ -123,7 +123,7 @@ export default class Main {
       let enemy = databus.enemys[i]
 
       if ( this.player.isCollideWith(enemy) ) {
-        databus.gameOver = true
+        databus.gameOver = false
 
         // 获取历史高分
         if (this.personalHighScore) {
